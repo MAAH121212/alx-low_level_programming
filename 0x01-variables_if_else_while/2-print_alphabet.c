@@ -3,10 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: print all alphabit letters
+ * Description: print all alphabet letters
  *
  * Return: Always 0 (Success)
- *
 */
 
 int main(void)
@@ -16,9 +15,9 @@ int main(void)
 	while (ch <= 'z')
 	{
 		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
-	ch++;
 
 	return (0);
 }
