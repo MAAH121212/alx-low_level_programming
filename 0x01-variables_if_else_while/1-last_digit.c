@@ -5,7 +5,8 @@
 /**
  *  main - Entry point
  *
- *  Description: Last digit of a random number
+ *  Description: print the value of n status:
+ *  greater than, 0 and is not less than 6
  *
  *  Return: Always 0 (Success)
  *
