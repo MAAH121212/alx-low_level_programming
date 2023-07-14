@@ -11,11 +11,13 @@
 
 int main(void)
 {
-	char ch = 'a';
+	int ch = 48;
 
-	while (ch <= 'l')
+	while (ch <= 102)
 	{
 		putchar(ch);
+		if (ch == 57)
+			ch += 39;
 		ch++;
 	}
 	putchar('\n');
