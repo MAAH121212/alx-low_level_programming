@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - computes the absolute value of an integer
- * @n: the int to check
- * Return: the absolute value of int
+ * _abs - function that  computes the absolute value of an integer
+ * @n: takes an integer type input for function
+ * Return: Alwasys 0 (Success)
  */
 
 int _abs(int n)
