@@ -6,12 +6,21 @@
 
 void more_numbers(void)
 {
-	int i = 1;
-	int c = 0;
+	int carry, times, num;
 
-	do {
-		if (c <= 14)
-			_putchar(c + 48);
-	} while (i <= 10);
-	_putchar('\n');
+	for (carry = 1; carry <= 10; carry++)
+	{
+		for (times = 0; times <= 14; times++)
+		{
+			num = times;
+
+			if (times > 9)
+			{
+				_putchar(1 + 48);
+				num = times % 10;
+			}
+			_putchar(num + 48);
+		}
+		_putchar('\n');
+	}
 }
