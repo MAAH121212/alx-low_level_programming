@@ -53,6 +53,7 @@ char *cap_string(char *str)
 		}
 		else
 			found = 0;
+		str++;
 	}
 	return (A);
 }
