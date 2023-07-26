@@ -24,11 +24,9 @@ int Isdelimiter(char c)
 	char  dele[] = " \t\n,.!?\"(){}";
 
 	for (i = 0; i < 12; i++)
-	{
 		if (c == dele[i])
 			return (1);
 	return (0);
-	}
 }
 
 /**
