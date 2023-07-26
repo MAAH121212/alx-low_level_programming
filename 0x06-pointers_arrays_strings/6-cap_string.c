@@ -48,7 +48,7 @@ char *cap_string(char *str)
 			found = 1;
 		else if (isLower(*str) && found)
 		{
-			*str = *str - 32;
+			*str -= 32;
 			found = 0;
 		}
 		else
