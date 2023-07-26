@@ -42,13 +42,13 @@ char *cap_string(char *str)
 	char *A = str;
 	int found = 1;
 
-	while (*A)
+	while (*str)
 	{
-		if (Isdelimiter(*A))
+		if (Isdelimiter(*str))
 			found = 1;
-		else if (isLower(*A) && found)
+		else if (isLower(*str) && found)
 		{
-			*A = *A - 32;
+			*str = *str - 32;
 			found = 0;
 		}
 		else
