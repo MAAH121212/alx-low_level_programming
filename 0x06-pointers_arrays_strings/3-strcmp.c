@@ -19,8 +19,8 @@ int _strcmp(char *s1, char *s2)
 			i = ((int)*s1 - 48) - ((int)*s2 - 48);
 			break;
 		}
-		*s1++;
-		*s2++;
+		s1++;
+		s2++;
 	}
 	return (i);
 }
