@@ -3,7 +3,7 @@
 /**
  * is_prime_number - says if an integer is a prime number or not
  * @n: number to evaluate
- *
+ * @oth: input of type integer.
  * Return: 1 if n is a prime number, 0 if not
  */
 
