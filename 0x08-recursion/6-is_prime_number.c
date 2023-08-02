@@ -6,6 +6,7 @@
  *
  * Return: 1 if n is a prime number, 0 if not
  */
+
 int check_prime(int n, int oth);
 int is_prime_number(int n)
 {
