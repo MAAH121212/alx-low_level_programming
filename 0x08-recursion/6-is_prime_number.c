@@ -25,7 +25,7 @@ int check_prime(int n, int oth)
 	{
 		return (0);
 	}
-	else if (n > 1 && oth >= n)
+	else if (oth >= n && n > 1)
 	{
 		return (1);
 	}
