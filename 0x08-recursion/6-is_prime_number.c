@@ -22,15 +22,9 @@ int is_prime_number(int n)
 int check_prime(int n, int oth)
 {
 	if (n % oth == 0 || n <= 1)
-	{
 		return (0);
-	}
 	else if (oth >= n && n > 1)
-	{
 		return (1);
-	}
 	else
-	{
 		return (check_prime(n, oth + 1));
-	}
 }
