@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * *string_nconcat - concatenates n bytes of a string to another string
@@ -12,7 +13,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	int i, j, s1_length, s2_length;
+	unsigned int i, j, s1_length, s2_length;
 
 	if (s1 == NULL)
 		s1 = "";
